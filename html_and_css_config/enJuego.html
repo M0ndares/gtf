@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>En Juego</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body style = "background-color: #2c215c;">
+    <div class="inGame">
+        <div id="displayElement"></div>
+        <div id="timeDisplay">10</div>
+        <img id="countryImage" src="../audio_and_video/japan.png" alt="Country Image">
+        <button id="buttonGame" onclick="answerComparison()">Revisar mi respuesta</button>
+        <div id="feedback"></div>
+        <input id="answerElement" type="text" placeholder="Tu respuesta" required>
+        <div id="time">00:00</div>
+        <div id="tryAgain" style="display: none;">
+            <button class="popUpItems" onclick="location.href='enJuego.html'">Intentar de nuevo</button>
+        </div> 
+        <div id = 'gameFinished' style="display: none;">
+            <h4 class="popUpItems">Ingrese un apodo para guardar su puntaje</h4>
+            <input id="nickname" class="popUpItems" type="text" placeholder="Apodo" required>
+            <button id="toCharts" class="popUpItems" onclick="location.href='bestScores.html'; bestScores();">Guardar mi puntaje</button> 
+        </div>
+    </div>
+    <script src="../ts_config/src/demoSpanish.js"></script>
+</body>
+</html>
