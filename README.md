@@ -1,6 +1,7 @@
 # Guess The Flag
 A fast-paced, interactive TypeScript web game designed to test players' geographical knowledge by guessing 50 different countries against the clock.
 
+![GTF Gameplay](gtf.mp4)
 ---
 
 ### Key Features
